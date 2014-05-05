@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment #1</title>
+	<link type="text/css" rel="stylesheet" href="Design.css"/>
+</head>
+
+<body>
+
+<div id="logo">
+</div>
+
+<div id="contain">
+
+<div class="box" id="dog" onclick="myFunction(this)">
+</div>
+<div class="box" id="cat" onclick="myFunction(this)">
+</div>
+<div class="box" id="elephant" onclick="myFunction(this)">
+</div>
+<div class="box" id="lion" onclick="myFunction(this)">
+</div>  
+<div class="box" id="monkey" onclick="myFunction(this)">
+</div>
+<div class="box" id="fish" onclick="myFunction(this)">
+</div> 
+<div class="box" id="tiger" onclick="myFunction(this)">
+</div>
+<div class="box" id="bear" onclick="myFunction(this)">
+</div>
+<div class="box" id="horse" onclick="myFunction(this)">
+</div>
+<div class="box" id="mouse" onclick="myFunction(this)">
+</div> 
+<div class="box" id="bird" onclick="myFunction(this)">
+</div>  
+<div class="box" id="pig" onclick="myFunction(this)">
+</div>
+<div class="box" id="cow" onclick="myFunction(this)">
+</div>  
+<div class="box" id="penguin" onclick="myFunction(this)">
+</div>  
+<div class="box" id="sheep" onclick="myFunction(this)">
+</div>  
+
+
+</div>
+
+
+<script>
+
+var myBoxes=new Array(); 
+myBoxes[0]="cat";       
+myBoxes[1]="dog";
+myBoxes[2]="tree";
+myBoxes[3]="chair"
+myBoxes[4]="cardboardbox"
+myBoxes[5]="boy"
+myBoxes[6]="girl";
+var i = 0;
+function myFunction(misha)
+{
+	
+//document.write("dog");
+//var asd=document.getElementById(misha);
+//misha.innerHTML='<p>'+misha.id+'</p>';
+	
+	if (misha.innerHTML.length !== 0)
+	{ misha.innerHTML='';
+	}
+	else
+	{
+		misha.innerHTML='<p>'+misha.id+'</p>';
+	}
+	
+	
+	/*if (i%2 == 0)
+	{
+//document.write("dog");
+//var asd=document.getElementById(misha);
+misha.innerHTML='<p>'+misha.id+'</p>';
+	}
+	else {
+		misha.innerHTML='';
+	}
+	i++;*/
+	
+	
+
+}
+        
+
+
+</script>
+
+
+</body>
+
+<footer id=foot>
+<p id="footfoot">A website by Mariya, Rory, Oskaras and Robert</p>
+</footer>
+
+</html>
+

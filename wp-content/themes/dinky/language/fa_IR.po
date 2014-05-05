@@ -1,0 +1,533 @@
+# Translation of Dinky theme in Persian
+# This file is distributed under the same license as the Dinky package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-08-31 00:02+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+"Project-Id-Version: Dinky\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Misam Saki <info@misam.ir>\n"
+"Language-Team: \n"
+
+#: functions.php:102 (Do not traslate it. You must replaced it by needed fonts
+#: to load from google)
+msgid ""
+"Open+Sans:400italic,700italic,400,700|Droid+Serif:400italic,700italic,400,700"
+msgstr ""
+"Open+Sans:400italic,700italic,400,700|Droid+Serif:400italic,700italic,400,700"
+
+#: social.php:19
+msgid "E-mail"
+msgstr "پست الکترونیک"
+
+#: social.php:20
+msgid "Feed"
+msgstr "خوراک"
+
+#: social.php:21
+msgid "Twitter"
+msgstr "توئیتر"
+
+#: social.php:22
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: social.php:23
+msgid "Google+"
+msgstr "گوگل+"
+
+#: social.php:24
+msgid "Linkedin"
+msgstr "لینکدین"
+
+#: social.php:25
+msgid "Github"
+msgstr "گیت‌هاب"
+
+#: social.php:26
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: social.php:27
+msgid "Foursquare"
+msgstr "فوراسکوئر"
+
+#: social.php:28
+msgid "Youtube"
+msgstr "یوتیوب"
+
+#: social.php:29
+msgid "Dribbble"
+msgstr "دریبل"
+
+#: social.php:30
+msgid "Tumblr"
+msgstr "تامبلر"
+
+#: social.php:31
+msgid "Flickr"
+msgstr "فلیکر"
+
+#: social.php:32
+msgid "Blogger"
+msgstr "بلاگر"
+
+#: social.php:33
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: social.php:34
+msgid "Fivehundredpix"
+msgstr "Fivehundredpix"
+
+#: social.php:35
+msgid "Reddit"
+msgstr "Reddit"
+
+#: social.php:36
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: social.php:37
+msgid "Smugmug"
+msgstr "Smugmug"
+
+#: social.php:38
+msgid "Stumbleupon"
+msgstr "Stumbleupon"
+
+#: footer.php:20
+msgid "&copy; Copyright %s <a href=\"%s\" title=\"%s\">%s</a>"
+msgstr "&copy; حق‌نشر %s <a href=\"%s\" title=\"%s\">%s</a>"
+
+#: footer.php:26
+msgid ""
+"<strong>Dinky</strong> WordPress Theme - Theme By <a href=\"http://en.misam."
+"ir/\" title=\"Misam Saki\">Misam Saki</a>"
+msgstr ""
+"پوسته وردپرس <strong>دینکی (شیک)</strong> - پوسته از <a href=\"http://misam."
+"ir/\" title=\"میثم ساکی\">میثم ساکی</a>"
+
+#: footer.php:28
+msgid "To Top"
+msgstr "برو بالا"
+
+#: content-404.php:19
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: content-404.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"این‌طور به‌نظر می‌رسد که ما نمی‌توانیم چیزی که شما به‌دنبالش هستید پیدا کنیم. "
+"شاید جستجو کردن راه بهتری باشد."
+
+#: page-no_sidebar.php:4
+msgid "No Sidebar"
+msgstr "بدون ستون کناری"
+
+#: page-no_sidebar_full_main.php:4
+msgid "No Sidebar - Full Main"
+msgstr "بدون ستون کناری - ستون اصلی تمام اندازه"
+
+#: author.php:22
+msgid "Author Archives: %s"
+msgstr "بایگانی نویسنده: %s"
+
+#: author-bio.php:23
+msgid "About %s"
+msgstr "درباره %s"
+
+#: category.php:22
+msgid "Category Archives: %s"
+msgstr "بایگانی دسته: %s"
+
+#: content-none.php:19
+msgid "Nothing Found"
+msgstr "موردی یافت نشد"
+
+#: content-none.php:22
+msgid "No posts to display."
+msgstr "نوشته‌ای برای نمایش نیست."
+
+#: search.php:22
+msgid "Search results for: %s"
+msgstr "نتایج جستجوی: %s"
+
+#: content-no_result.php:19
+msgid "No result Found"
+msgstr "نتیجه‌ای یافت نشد"
+
+#: content-no_result.php:22
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"متأسفیم، موردی مطابق با جستجوی شما پیدا نشد. لطفا برای جستجو از کلیدواژه‌های "
+"دیگری استفاده کنید."
+
+#: tag.php:22
+msgid "Tag Archives: %s"
+msgstr "بایگانی برچسب: s%"
+
+#: taxonomy-post_format.php:22
+msgid "%s Archives"
+msgstr "%s بایگانی"
+
+#: content.php:19
+msgid "Permalink to %s"
+msgstr "پیوند یکتا به %s"
+
+#: content.php:20
+msgid "Leave a reply"
+msgstr "نظر بدهید"
+
+#: content.php:20
+msgid "1 Reply"
+msgstr "۱ پاسخ"
+
+#: content.php:20
+msgid "% Replies"
+msgstr "% دیدگاه"
+
+#: content.php:29
+msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+msgstr "بیشتر بخوانید <span class=\"meta-nav\">&larr;</span>"
+
+#: content.php:31
+msgid "Pages"
+msgstr "صفحات"
+
+#: content.php:36
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: content.php:40
+msgid "&larr; Previous"
+msgstr "&rarr; قبلی"
+
+#: content.php:41
+msgid "Next &rarr;"
+msgstr "بعدی &larr;"
+
+#: comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "این نوشته رمز شده است. برای مشاهده دیدگاه رمز را وارد کنید."
+
+#: comments.php:19
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgstr "یک دیدگاه بر &ldquo;%2$s&rdquo;"
+
+#: comments.php:21
+msgid "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr "%1$s دیدگاه بر &ldquo;%2$s&rdquo;"
+
+#: comments.php:27
+msgid "&larr; Older Comments"
+msgstr "&rarr; دیدگاه‌های کهنه‌تر"
+
+#: comments.php:28
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه‌های تازه‌تر &larr;"
+
+#: comments.php:34
+msgid "Pings&#47;Trackbacks"
+msgstr "بازتاب‌ها و بازخوردها"
+
+#: comments.php:36
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s برای \"%3$s\""
+
+#: comments.php:44
+msgid "Name"
+msgstr "نام"
+
+#: comments.php:48
+msgid "Website"
+msgstr "وب‌سایت"
+
+#: comments.php:x
+msgid "Reply"
+msgstr "پاسخ"
+
+#: comments.php:x
+msgid "Comments Off"
+msgstr "دیدگاه غیرفعال"
+
+#: comments.php:x
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار بررسی است."
+
+#: comments.php:x
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته هستند."
+
+#: functions.php:38
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#: functions.php:66
+msgid "Beach"
+msgstr "ساحل"
+
+#: functions.php:124
+msgid "Version"
+msgstr "نسخه"
+
+#: functions.php:182
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: functions.php:197
+msgid "Sidebar column"
+msgstr "ستون کناری"
+
+#: functions.php:207
+msgid "Up main column"
+msgstr "بالای ستون اصلی"
+
+#: functions.php:217
+msgid "Under content (up footer)"
+msgstr "زیر محتوا (بالای فوتر)"
+
+#: functions.php:239
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> نوشته‌های کهنه‌تر"
+
+#: functions.php:240
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نوشته‌های تازه‌تر <span class=\"meta-nav\">&larr;</span>"
+
+#: functions.php:251
+msgid "« Previous"
+msgstr "« قبلی"
+
+#: functions.php:252
+msgid "Next »"
+msgstr "بعدی »"
+
+#: functions.php:276
+msgid ", "
+msgstr "، "
+
+#: functions.php:290
+msgid "View all posts by %s"
+msgstr "نمایش همه‌ی نوشته‌های %s"
+
+#: functions.php:295
+msgid ""
+"Posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"نوشته شده در %1$s با برچسب %2$s  در %3$s توسط <span class=\"by-author\">"
+"%4$s</span>."
+
+#: functions.php:297
+msgid "Posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+"نوشته شده در %1$s به تاریخ %3$s توسط <span class=\"by-author\"> %4$s</span>."
+
+#: functions.php:299
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "نوشته‌شده در %3$s<span class=\"by-author\"> توسط %4$s</span>."
+
+#: functions.php:343
+msgid "Unknow"
+msgstr "نامشخص"
+
+#: functions.php:345
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">منتشر شده </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> در <a href=\"%3$s\" title=\"پیوند به اندازه‌ی اصلی تصویر\">%4$s &times; "
+"%5$s</a> در <a href=\"%6$s\" title=\"بازگشت به %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+
+#: functions.php:401
+msgid "Yearly Archives: %s"
+msgstr "بایگانی سالیانه: %s"
+
+#: functions.php:403
+msgid "Monthly Archives: %s"
+msgstr "بایگانی ماهیانه: %s"
+
+#: functions.php:405
+msgid "Daily Archives: %s"
+msgstr "بایگانی روزانه: %s"
+
+#: functions.php:407
+msgid "Archives"
+msgstr "بایگانی"
+
+#: theme-options.php:39
+msgid "View"
+msgstr "چشم‌انداز"
+
+#: theme-options.php:x
+msgid "Display cover in home page"
+msgstr "نمایش کاور در صفحه نخست"
+
+#: theme-options.php:x
+msgid "Display cover in other pages"
+msgstr "نمایش کاور در صفحات دیگر"
+
+#: theme-options.php:x
+msgid "Display content and footer in home page"
+msgstr "نمایش محتوا و فوتر در صفحه نخست"
+
+#: theme-options.php:x
+msgid "Display sidebar column"
+msgstr "نمایش ستون کناری"
+
+#: theme-options.php:x
+msgid "Full size main column when dont display sidebar column"
+msgstr "نمایش تمام صفحه ستون اصلی هنگام نداشتن ستون کناری"
+
+#: theme-options.php:x
+msgid "Display intro in home page"
+msgstr "نمایش بخش معرفی در صغحه نخست"
+
+#: theme-options.php:x
+msgid "Display intro in other pages"
+msgstr "نمایش بخش معرفی در صفحات دیگر"
+
+#: theme-options.php:x
+msgid "Display intro in mobile view"
+msgstr "نمایش بخش معرفی در حالت موبایل"
+
+#: theme-options.php:x
+msgid "Content"
+msgstr "محتوا"
+
+#: theme-options.php:x
+msgid "Intro content"
+msgstr "محتوای بخش معرفی"
+
+#: theme-options.php:x
+msgid "Copyright content"
+msgstr "محتوای حق‌نشر"
+
+#: theme-options.php:x
+msgid "Version number"
+msgstr "شماره نسخه"
+
+#: theme-options.php:x
+msgid "Display version number"
+msgstr "نمایش شماره نسخه"
+
+#: theme-options.php:x
+msgid "Header tags"
+msgstr "تگ‌های هدر"
+
+#: theme-options.php:x
+msgid "Author link"
+msgstr "آدرس پیوند نویسنده"
+
+#: theme-options.php:x
+msgid "Shortlink"
+msgstr "پیوندک"
+
+#: theme-options.php:x
+msgid "Favicon link"
+msgstr "آدرس فاوآیکن"
+
+#: theme-options.php:x
+msgid "Social icons"
+msgstr "آیکن‌های اجتماعی"
+
+#: theme-options.php:101
+msgid "Theme Options"
+msgstr "تنظیمات پوسته"
+
+#: theme-options.php:116
+msgid "For more information:"
+msgstr "برای اطلاعات بیشتر:"
+
+#: theme-options.php:117
+msgid "Dinky theme options"
+msgstr "تنظیمات پوسته دینکی"
+
+#: theme-options.php:117
+msgid "Click here"
+msgstr "اینجا کلیک کنید"
+
+#: theme-options.php:120
+msgid "Overview"
+msgstr "بازنگری"
+
+#: theme-options.php:138
+msgid ""
+"Suitable for personal blogs that you can have blog and also have visit card "
+"in home page<br/>Several social icons to display your account links<br/"
+">Support RTL languages and ability to add different languages typography"
+msgstr ""
+"مناسب برای وبلاگ‌های شخصی که می‌توانید وبلاگ و همچنین ویزیت کارت در صفحه نخست "
+"را داشته باشید<br/>آیکن‌های اجتماعی گوناگون برای نمایش لینک اکانت‌های شما<br/"
+">پشتیبانی از زبان‌های راست‌چین و قابلیت اضافه کردن تایپوگرافی زبان‌های مختلف"
+
+#: theme-options.php:487
+msgid "%s Theme Options"
+msgstr "تنظیمات پوسته %s"
+
+#: widgets.php:44
+msgid "Search..."
+msgstr "جستجو..."
+
+#: widgets.php:83
+msgid "Text without default widgets style"
+msgstr "متن بدون استایل پیش‌فرض ابزارک‌ها"
+
+#: style.css:2
+msgid "Dinky"
+msgstr "دینکی (شیک)"
+
+#: style.css:5
+msgid ""
+"Suitable for personal blogs that you can have blog and also visit card in "
+"home page. Several social icons to display your account links. Support RTL "
+"languages and ability to add different languages typography (English, "
+"Persian and Arabic by defualt). This theme is responsive; means that action "
+"with screen size so it displayed good in tablet and mobile yet. Technologies "
+"used: HTML5, CSS3, JavaScript, jQuery. The proposed plugins compatible with "
+"this theme: wp-jalali, wp-pagenavi. <a href=\"http://wordpress.org/support/"
+"topic/dinky-theme-version-14/\">Changes List</a> | <a href=\"http://en.misam."
+"ir/projects/dinky-theme/\" title=\"Read to better use of theme\">More Info</"
+"a> | <a href=\"http://wordpress.org/support/view/theme-reviews/dinky/\">Rate "
+"Theme</a> | <a href=\"http://wordpress.org/support/theme/dinky/\">Ask "
+"Questions</a> | <a href=\"http://github.com/misamplus/dinky-theme/\">Develop "
+"Theme</a>"
+msgstr ""
+"مناسب برای وبلاگ‌های شخصی که می‌توانید وبلاگ و همچنین ویزیت کارت را در صفحه "
+"نخست داشته باشید. آیکن‌های اجتماعی گوناگون برای نمایش لینک اکانت‌های شما. "
+"پشتیبانی از زبان‌های راست‌چین و قابلیت اضافه کردن تایپوگرافی زبان‌های مختلف "
+"(انگلیسی، فارسی و عربی به صورت پیش‌فرض). این تم ریسپانسیو است؛ به این معنی که "
+"با توجه به سایز صفحه واکنش می‌دهد بنابراین در تبلت و موبایل نیز به خوبی نمایش "
+"داده می‌شود. تکنولوژی‌های استفاده شده: HTML5, CSS3, JavaScript, jQuery. "
+"پلاگین‌های پیشنهادی سازگار با این تم: wp-jalali, wp-pagenavi. <a href="
+"\"http://wordpress.org/support/topic/dinky-theme-version-14/\">لیست تغییرات</"
+"a> | <a href=\"http://misam.ir/projects/dinky-theme/\" title=\"برای استفاده "
+"بهتر از پوسته بخوانید\">اطلاعات بیشتر</a> | <a href=\"http://wordpress.org/"
+"support/view/theme-reviews/dinky/\">امتیاز دادن به پوسته</a> | <a href="
+"\"http://wordpress.org/support/theme/dinky/\">پرسیدن سوالات</a> | <a href="
+"\"http://github.com/misamplus/dinky-theme/\">توسعه پوسته</a>"
+
+#: style.css:6
+msgid "Misam Saki"
+msgstr "میثم ساکی"
+
+#: style.css:7
+msgid "http://en.misam.ir/"
+msgstr "http://misam.ir/"

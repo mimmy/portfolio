@@ -1,0 +1,80 @@
+* {margin: 0;
+padding: 0;}
+
+body {background: white;
+background-image: url('bcg.png');
+background-repeat: no-repeat;}
+
+#drawwhat {
+	color: #ffffff;
+	padding: 14px 30px;
+	background-size: 100%;
+	background-color:		#f25b53;
+	background: -moz-linear-gradient(
+		top,
+		#f25b53 0%,
+		#ef2f5f);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f25b53),
+		to(#ef2f5f));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+		text-decoration: none;
+	font-family: Helvetica, Arial;
+	font-size: 28px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+vertical-align: middle;
+line-height: 80px;
+font-weight: bold;}
+
+#drawwhat:hover {background: -moz-linear-gradient(
+		top,
+		#ef2f5f 0%,
+		#f25b53);
+background-color:
+		#ef2f5f;
+	background: -moz-linear-gradient(
+		top,
+		#f25b53 0%,
+		#ef2f5f);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ef2f5f),
+		to(#f25b53));}
+
+
+p {margin-top: 150px;
+	color:#96cb21;
+	font-size: 28px;
+	font-family: Helvetica, Arial;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#textfield {
+	color:#74bd00;
+	font-size: 32px;
+	font-family: Helvetica, Arial;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#container {
+	width: 240px;
+	height: 100px;
+	margin-left: auto;
+	overflow: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: block;
+}

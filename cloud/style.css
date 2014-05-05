@@ -1,0 +1,9 @@
+#cloud{
+	background-image: url("cloudssprite1.svg");
+	background-size: 1206px 1407px;
+	width: 201px; /* Ninja: 200*300 */
+	height: 201px;
+	position: absolute;
+	overflow: auto;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>inspiration generator</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+<p> Want to draw something, but not sure what?</p>
+<div id="container"><a id="drawwhat" href="#">
+    INSPIRE ME!
+</a></div>
+
+<div id="textfield">
+ 
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    var person = [
+        "a child",
+"a lion",
+"an ant",
+"a princess",
+"a dragon",
+"a butterfly",
+"a dog",
+"a cat",
+"an angel",
+"a doll",
+"a beast",
+"a wolf",
+"a snake",
+"an old man",
+"an old woman",
+"a wise magician",
+"a king",
+"a truck driver",
+"a mermaid",
+"a vampire",
+"a dinosaur",
+"an alien",
+"my little pony",
+"a cow",
+"a ghost",
+"Alice in Wonderland",
+"the white rabbit",
+"the mad hatter",
+"a hobbit",
+"a witch",
+"a crazy old lady",
+"an owl",
+"a horse",
+"a zombie",
+"a policeman",
+    ];
+
+    var action = [
+        "playing football with",
+"going shoe shopping with",
+"taking a walk with",
+"jogging next to",
+"holding a poster of",
+"who is afraid of",
+"who is a friend with",
+"fighting with",
+"riding a tandem bicycle with",
+"taking a photo of",
+"giving an interview to",
+"drinking tea with",
+"buying pizza from",
+"stealing from",
+"hiding from",
+"in a bar with",
+"spying",
+"who owns",
+"who is mad at",
+"in love with",
+"going to prom with",
+"stalking",
+"dressed up as",
+"in a hot air balloon with",
+"dancing with",
+"hugging",
+"riding",
+    ];
+     var textField = document.getElementById("textfield");
+    document.getElementById("drawwhat").addEventListener("click",function() {
+          randomIndex = Math.ceil((Math.random()*person.length-1));
+          randomIndexOne = Math.ceil((Math.random()*action.length-1));
+          randomIndexTwo = Math.ceil((Math.random()*person.length-1));
+          newText = person[randomIndex];
+          newTextOne =  action[randomIndexOne];
+          newTextTwo =  person[randomIndexTwo];
+          textField.innerHTML = "Draw" + " " + newText + " " + newTextOne + " " + newTextTwo + "!";
+    });
+</script>
+
+
+</body>
+</html>

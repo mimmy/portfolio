@@ -1,0 +1,156 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	}
+
+#logo {
+	background-image:url(logo.png);
+}
+
+#contain {
+	height:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	overflow: auto;
+}
+
+.box {cursor:pointer;}
+
+div.box, #logo {
+display:block;
+text-align:center;
+display:inline;
+float:left;
+background-size:contain;
+}
+
+@media (min-width:1025px){
+
+#contain {
+	width:985px;
+}
+
+div.box, #logo {
+height:182px;
+line-height:182px;
+width:182px;
+margin-right:15px;
+margin-bottom:15px;
+}
+
+.box p {
+	font-size:36px;}
+	
+} /*end of desktop size*/
+
+@media (min-width:768px) and (max-width:1024px){
+
+#contain {
+	width:750px;
+}
+
+div.box, #logo {
+height:138px;
+line-height:138px;
+width:138px;
+margin-right:12px;
+margin-bottom:12px;
+}
+
+.box p {
+	font-size:36px;}
+} /*end of laptop size*/
+
+@media (min-width:481px) and (max-width:767px){
+
+#contain {
+	width:479px;
+}
+
+div.box, #logo {
+height:147px;
+line-height:147px;
+width:147px;
+margin-right:12px;
+margin-bottom:12px;
+}
+.box p {
+	font-size:36px;}
+} /*end of tablet size*/
+
+@media (min-width:321px) and (max-width:480px){
+
+#contain {
+	width:318px;
+}
+
+div.box, #logo {
+height:96px;
+line-height:96px;
+width:96px;
+margin-right:10px;
+margin-bottom:10px;}
+
+.box p {
+	font-size:25px;}
+
+} /*end of smartphone landscape*/
+
+
+@media (max-width:320px){
+
+#contain {
+	width:250px;
+}
+
+div.box, #logo {
+height:115px;
+line-height:115px;
+width:115px;
+margin-right:10px;
+margin-bottom:10px;}
+
+.box p {
+	font-size:25px;}
+
+} /*end of smartphone landscape*/
+
+
+.box p {
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: white 0.1em 0.1em 0.2em,
+	white -0.1em -0.1em 0.2em;
+	color:black;
+}
+
+.box:hover {
+ opacity:0.9;
+}
+
+#footfoot {
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:15px;
+	font-family: helvetica, Arial;
+}
+
+#foot {
+	width:100%;
+	height:auto;
+	margin-bottom:10;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: inline-block;
+}

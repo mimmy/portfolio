@@ -1,0 +1,144 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#logo {
+	background-image:url(clickzoo.jpg);
+	background-size:contain;
+	width:173px;
+	height:122px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#dog {
+	background-image:url(dog.png);
+	background-size:contain;
+	
+}
+
+#cat {
+	background-image:url(cat.png);
+	background-size:contain;
+}
+
+#elephant {
+	background-image:url(elephant.png);
+	background-size:contain;
+}
+
+#lion {
+	background-image:url(lion.png);
+	background-size:contain;
+}
+
+#monkey {
+	background-image:url(monkey.png);
+	background-size:contain;
+}
+
+
+
+#fish {
+	background-image:url(fish.png);
+	background-size:contain;
+}
+
+#penguin {
+	background-image:url(penguin.png);
+	background-size:contain;
+}
+
+#sheep {
+	background-image:url(sheep.png);
+	background-size:contain;
+}
+
+#tiger {
+	background-image:url(tiger.png);
+	background-size:contain;
+}
+
+#bear {
+	background-image:url(bear.png);
+	background-size:contain;
+}
+
+#horse {
+	background-image:url(horse.png);
+	background-size:contain;
+}
+
+#mouse {
+	background-image:url(mouse.png);
+	background-size:contain;
+}
+
+#bird {
+	background-image:url(bird.png);
+	background-size:contain;
+}
+
+#pig {
+	background-image:url(pig.png);
+	background-size:contain;
+}
+
+#cow {
+	background-image:url(cow.png);
+	background-size:contain;
+}
+
+.box:hover {
+ opacity:0.9;
+}
+
+#footfoot {
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+
+#foot {
+	width:100%;
+	height:auto;
+	margin-bottom:20;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display: inline-block;
+}
+
+#contain {
+	width:65%;
+	height:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+
+}
+
+div.box {
+display:block;
+height:160px;
+line-height:160px;
+text-align:center;
+width:160px;
+display:inline;
+float:left;
+margin-right:12px;
+margin-bottom:12px;
+}
+
+.box p {
+	font-size:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: white 0.1em 0.1em 0.2em,
+	white -0.1em -0.1em 0.2em;
+	color:black;
+}

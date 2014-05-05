@@ -1,0 +1,96 @@
+* {margin: 0;
+padding: 0;}
+div#cremsnit {
+	display:block;
+	overflow: auto;
+	background-image: url("crem.jpg");
+	height: 300px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+}
+
+div#order {
+	background-image: url("Untitled-1.png");
+	background-size: 100% 100%;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	margin-bottom: 0;
+	height: 25%;
+	display: none;
+
+}
+
+div#order a {
+	margin-top: 25px;
+	margin-right: 10px;
+	font-family: helvetica, Arial;
+	display: block;
+	padding: 5px;
+	background: #9ed300; /* Old browsers */
+background: -moz-linear-gradient(top,  #9ed300 0%, #97ba0b 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9ed300), color-stop(99%,#97ba0b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9ed300 0%,#97ba0b 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9ed300 0%,#97ba0b 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9ed300 0%,#97ba0b 99%); /* IE10+ */
+background: linear-gradient(to bottom,  #9ed300 0%,#97ba0b 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ed300', endColorstr='#97ba0b',GradientType=0 ); /* IE6-9 */
+
+	float: right;
+	border-radius: 6px;
+	color: white;
+	text-decoration: none;
+}
+
+div#order a:hover {
+	background: #97ba0b; /* Old browsers */
+background: -moz-linear-gradient(top,  #97ba0b 1%, #9ed300 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#97ba0b), color-stop(100%,#9ed300)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #97ba0b 1%,#9ed300 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #97ba0b 1%,#9ed300 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #97ba0b 1%,#9ed300 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #97ba0b 1%,#9ed300 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97ba0b', endColorstr='#9ed300',GradientType=0 ); /* IE6-9 */
+
+}
+
+div#order p {
+	display: inline-block;	
+	margin-top: 10px;
+	margin-left: 15px;
+	font-family: helvetica, Arial;
+	font-size: 16px;
+	width: 180px;
+}
+
+div#lens {
+	height: 75%;
+	display: block;
+	width: 100%;
+	cursor: -webkit-zoom-in; cursor: -moz-zoom-in;
+}
+
+div#cremsnit:hover > #order {
+display: block;
+}
+
+h3 {
+		font-family: helvetica, Arial;
+	color: gray;
+float: left;
+margin-top: 11px;
+	margin-left: 20px;
+
+	font-size: 22px;
+	font-weight: normal;
+}
+p.description {
+	font-family: helvetica, Arial;
+	color: gray;
+	margin-top: 10px;
+	position: relative;
+	left: 100px;
+	font-size: 22px;
+	font-weight: bold;
+}

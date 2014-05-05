@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;
+padding:0;}
+
+body {background-color:white;}
+
+/*h2 {font-family: 'Cabin', sans-serif;
+font-size:25px;
+font-weight:normal;
+float:left;}*/
+
+#logo {
+height:55px;
+margin-top:45px;
+margin-left:6%;
+}
+
+nav {float:left;
+overflow:auto;
+	overflow:auto;
+	width:250px;
+	height:500px;}
+
+#leftnav li {margin-top:12px;
+list-style-type:none;
+}
+#leftnav ul {list-style-type:none;
+margin-top:60px;
+width:200px;
+}
+
+ul {list-style-type:none;}
+
+.btn {
+-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+  -webkit-box-shadow: 3px 4px 15px #adadad;
+  -moz-box-shadow: 3px 4px 15px #adadad;
+  box-shadow: 3px 4px 15px #adadad;
+  font-family: 'Cabin', sans-serif;
+  color: #7d7d7d;
+  font-size: 22px;
+  background: #ffffff;
+  padding: 6px 40px 6px 27px;
+  text-decoration: none;
+  clear:both;
+  display:block;
+  margin-right:15px;
+}
+
+
+ul:hover .btn {width:95px;
+ padding-right:20px;
+background:white;
+position:relative;
+animation:mysecond 1s;
+-webkit-animation:mysecond 1s; /* Safari and Chrome */
+}
+
+@keyframes mysecond
+{
+0%   {background:white; width:120px; padding-right:40px;}
+100% {background:white; width:95px; padding-right:20px;}
+
+}
+
+@-webkit-keyframes mysecond /* Safari and Chrome */
+{
+0%   {background:white; width:120px; padding-right:40px;}
+100% {background:white; width:95px; padding-right:20px;}}
+
+
+li #home:hover {
+	width:120px;
+background:#3DBB7E;
+padding-left:55px;
+position:relative;
+color:black;
+animation:myfirst 1s;
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+}
+
+
+
+@keyframes myfirst
+{
+0%   {background:white; padding-left:27px;}
+100% {padding-left:55px; color:black;}
+
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background:white; padding-left:27px;}
+100% {padding-left:55px; color:black;}}
+
+
+
+li #projects:hover {
+	width:120px;
+background:#EE4036;
+padding-left:55px;
+position:relative;
+animation:myfirst 1s;
+color:black;
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+}
+
+li #about:hover {
+	width:120px;
+background:#A3CD39;
+padding-left:55px;
+position:relative;
+animation:myfirst 1s;
+color:black;
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+}
+
+
+li #hireme:hover {
+	width:120px;
+background:#F39;
+padding-left:55px;
+position:relative;
+color:black;
+animation:myfirst 1s;
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+}
+
+#blog {background-image:url(spriteblog.png);
+}
+
+.squares:hover {
+	background-position:top;
+	transition:background-position 0.5s;}
+	
+	.squares {
+	width:231px;
+height:231px;
+	margin-right:12px;
+	margin-bottom:12px;
+	float:left;
+	background-position:bottom;
+background-size:cover;
+}
+
+
+#bisca {background-image:url(spritebisca.png);
+}
+#napkin {background-image:url(spritenapkin.png);
+}
+#animals {background-image:url(spriteanimals.png);
+}
+#summerfair {background-image:url(spritesummerfair.png);
+}
+#bridge {background-image:url(spritebridge.png);
+}
+#foetex {background-image:url(spriteblog.png);
+}
+#foetexbanner {background-image:url(spriteblog.png);
+}
+
+#maincontent {float:right;
+display:block;
+padding-right: 30px;
+overflow:auto;
+	max-width:78%;
+	margin-top:35px;
+}

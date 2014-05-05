@@ -1,0 +1,16 @@
+/**
+ * Import style for RTL languages
+ * Package: Dinky
+ * Since: Dinky 1.0
+ * Theme URI: http://wordpress.org/themes/dinky/
+ * Github repository URI: http://github.com/misamplus/dinky-theme/
+ * More information: http://en.misam.ir/projects/dinky-theme/
+ * License: GNU General Public License v3 or later
+ * Copyright (C) 2013  Misam Saki, misam.ir
+ * Author: Misam Saki
+ * Website: http://en.misam.ir/
+ * Email: misamplus@gmail.com
+ * Twitter: @misamplus
+*/
+
+@import "./css/rtl.css?ver=2013-08-26";
